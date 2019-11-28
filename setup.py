@@ -9,6 +9,7 @@ def read(fname):
 
 
 def find_scripts():
+    """Find Python script files."""
     scripts = []
     exclude = ['setup.py']
     for file in os.scandir('.'):
